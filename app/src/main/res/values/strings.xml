@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherTest</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="popular_location">Часто вживані локації</string>
+    <string name="city_search">Пошук міста</string>
+    <string name="city_name">Назва міста</string>
+    <string name="city_select">Обрати</string>
+</resources>

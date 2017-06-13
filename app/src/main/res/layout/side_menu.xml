@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:id="@+id/s_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/set_button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/set_button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Settings"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/city_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/s_layout"/>
+
+
+</RelativeLayout>
