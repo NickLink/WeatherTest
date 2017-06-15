@@ -5,8 +5,33 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="settings">Налаштування</string>
     <string name="popular_location">Часто вживані локації</string>
     <string name="city_search">Пошук міста</string>
     <string name="city_name">Назва міста</string>
     <string name="city_select">Обрати</string>
+    <string name="forecast_terms">Виберіть тривалість прогнозу</string>
+    <string name="forecast_3">Прогноз на 3 дні</string>
+    <string name="forecast_7">Прогноз на 7 днів</string>
+    <string name="nigth">Ніч</string>
+    <string name="day">День</string>
+    <string name="temp_morning">Зранку</string>
+    <string name="temp_evening">Ввечері</string>
+    <string name="rain_chance">Ймовірність дощу</string>
+    <string name="wind_speed">Швидкість вітру</string>
+    <string name="humidity">Вологість</string>
+    <string name="pressure">Тиск</string>
+    <string name="no_rain_chance">Відсутня</string>
+    <string name="rate_text">Данне тестове завдання можна ще покращити, додавши діалоги для помилок, перевірку дозволів, анімації, нотіфікейшен, вибір локації по гуглкарті та приліпити різні шрифти та іконки - але на жаль, на все не вистачило часу.  Писалось після роботи безсонними ночами :)</string>
+
+    <string name="warning">Увага!</string>
+    <string name="dialog_button">Так</string>
+    <string name="author_contact">Виконано Олійником М.М.   +38063-296-15-20</string>
+
+    <string-array name="city_array">
+        <item>Вінниця</item>
+        <item>Київ</item>
+        <item>Додати ще</item>
+    </string-array>
+
 </resources>
